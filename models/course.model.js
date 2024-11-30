@@ -32,9 +32,6 @@ const courseSchema = new Schema(
       secure_url: {
         type: String,
         required:true
-
-        
-
       },
     },
 

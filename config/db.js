@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 mongoose.set('strictQuery',false); // if we ask for extra info that u don't have then don't give error
 const connectionToDB =async()=>{
     try{
-  const {connection}=await  mongoose.connect(
+  const {connection}= await mongoose.connect(
         process.env.MONGODB_URL
     );
     if(connection){

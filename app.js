@@ -13,7 +13,8 @@ config();  //To consider env file data.
 const app = express();
 app.use(express.json()); // handling JSON data in Express.js
 
-//express.urlencoded() is used for parsing data in the body of HTTP requests where the data is in the URL-encoded format, which is a common way to send form data in web applications.
+//express.urlencoded() is used for parsing data in the body of HTTP requests where the data is in the URL-encoded format,
+// which is a common way to send form data in web applications.
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({

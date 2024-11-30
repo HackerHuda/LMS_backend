@@ -30,7 +30,7 @@ const userSchema = new Schema(
       public_id: {
         //we will access through this
         type: "String",
-      }, // withh certain credentials u can access this 
+      }, // with certain credentials u can access this 
       secure_url: {
         type: "String",
       },
